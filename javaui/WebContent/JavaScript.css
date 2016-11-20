@@ -1,0 +1,124 @@
+body {
+	background-color: orange;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 0px padding:0px;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+#head {
+	margin: -20px;
+	width: 1600px;
+	height: 140px;
+	background-color: white;
+}
+
+#head h2 {
+	padding: -20px;
+	margin: -10px;
+	margin-left:0px;
+	height: 50px;
+}
+
+
+#menu {
+	positon: relative:        
+	width:1600px;
+	margin-top: -16px;
+	margin-bottom: opx;
+	margin-left: -10px;
+	padding: 0px;
+	margin-right: -20px;
+	background-color: yellow;
+	text-transform: uppercase;
+}
+
+#menu li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding-left: 15px;
+	font-size: 20px;
+	height: 30px;
+}
+
+#menu:hover {
+	color: red;
+}
+
+a a:visited {
+	link: green;
+}
+
+a a:active {
+	color: red;
+}
+
+li a {
+	transition: all .3s;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	transform-style: preserve-3d;
+}
+
+#signup a {
+	color: red;
+	font-size: 22px;
+	margin: 100px 1300px;
+	margin-top: -20px;
+	padding: 0px 0px 0px 0px;
+}
+
+#signup:hover {
+	color: white;
+}
+
+}
+form {
+  padding: 20px;
+  background: #2c3e50;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+form label,
+form input,
+form button {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}
+form input {
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+form button {
+  height: 30px;
+  line-height: 30px;
+  background: #e67e22;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+form .error {
+  color: #ff0000;
+}
+.radio
+{
+
+}
